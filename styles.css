@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-color: rgba(100, 148, 237, 0.322);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 24pt;
+    font-style: italic;
+}
+
+.title {
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: rgba(255, 246, 115, 0.521);
+}
+
+button {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px grey;
+    margin-top: 15px;
+    /* border: none antiquewhite 3px; */
+}
+
+button:hover {
+    background-color: rgba(233, 241, 255, 0.034);
+}
+
+button:active {
+    background-color: rgb(81, 92, 112);
+    color: white;
+}
+
+.title {
+    margin: 10px;
+}
+
+.top
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hover {
+    background-color: plum;
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    width: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
