@@ -1,5 +1,5 @@
-// let n = 16;
-let n = prompt("How many pixels per side would you like?", "16");
+let n = 16;
+// let n = prompt("How many pixels per side would you like?", "16");
 
       
 const mainContainer = document.querySelector('#main-container');
@@ -78,6 +78,7 @@ function createPixel(n) {
                 
         }) 
 })
+        container.style.justifyContent = 'center';
 };
 
         // For new grids at the press of a button:
